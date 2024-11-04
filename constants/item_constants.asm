@@ -158,9 +158,9 @@ ENDM
 
 DEF TM01 EQU const_value
 	add_tm MEGA_PUNCH   ; $C9
-	add_tm RAZOR_WIND   ; $CA
+	add_tm GROWTH       ; $CA - was razor wind
 	add_tm SWORDS_DANCE ; $CB
-	add_tm WHIRLWIND    ; $CC
+	add_tm WATERFALL    ; $CC - was whirlwind
 	add_tm MEGA_KICK    ; $CD
 	add_tm TOXIC        ; $CE
 	add_tm HORN_DRILL   ; $CF
@@ -176,7 +176,7 @@ DEF TM01 EQU const_value
 	add_tm SUBMISSION   ; $D9
 	add_tm COUNTER      ; $DA
 	add_tm SEISMIC_TOSS ; $DB
-	add_tm RAGE         ; $DC
+	add_tm LIGHT_SCREEN ; $DC - was rage
 	add_tm MEGA_DRAIN   ; $DD
 	add_tm SOLARBEAM    ; $DE
 	add_tm DRAGON_RAGE  ; $DF
@@ -193,7 +193,7 @@ DEF TM01 EQU const_value
 	add_tm BIDE         ; $EA
 	add_tm METRONOME    ; $EB
 	add_tm SELFDESTRUCT ; $EC
-	add_tm EGG_BOMB     ; $ED
+	add_tm LEECH_LIFE   ; $ED - was egg bomb
 	add_tm FIRE_BLAST   ; $EE
 	add_tm SWIFT        ; $EF
 	add_tm SKULL_BASH   ; $F0
@@ -202,7 +202,7 @@ DEF TM01 EQU const_value
 	add_tm SKY_ATTACK   ; $F3
 	add_tm REST         ; $F4
 	add_tm THUNDER_WAVE ; $F5
-	add_tm PSYWAVE      ; $F6
+	add_tm SLUDGE       ; $F6 - was psywave
 	add_tm EXPLOSION    ; $F7
 	add_tm ROCK_SLIDE   ; $F8
 	add_tm TRI_ATTACK   ; $F9

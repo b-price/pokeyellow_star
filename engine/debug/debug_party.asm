@@ -136,7 +136,7 @@ DebugUnusedList:
 	db MAX_ETHER, 99
 	db ELIXER, 99
 	db MAX_ELIXER, 99
-	db TM_RAZOR_WIND, 10
+	db TM_GROWTH, 10
 	db TM_HORN_DRILL, 10
 	db TM_TAKE_DOWN, 10
 	db TM_BLIZZARD, 10

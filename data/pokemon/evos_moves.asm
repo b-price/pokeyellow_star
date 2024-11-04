@@ -206,7 +206,7 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, STOMP
+	db 30, STOMP 
 	db 35, TAIL_WHIP
 	db 40, FURY_ATTACK
 	db 48, HORN_DRILL
@@ -304,8 +304,9 @@ IvysaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 13, VINE_WHIP
-	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
+	db 20, POISONPOWDER
+	db 26, RAZOR_LEAF
+	db 31, TAKE_DOWN
 	db 38, GROWTH
 	db 46, SLEEP_POWDER
 	db 54, SOLARBEAM
@@ -1786,6 +1787,7 @@ BulbasaurEvosMoves:
 	db 13, VINE_WHIP
 	db 20, POISONPOWDER
 	db 27, RAZOR_LEAF
+	db 30, TAKE_DOWN
 	db 34, GROWTH
 	db 41, SLEEP_POWDER
 	db 48, SOLARBEAM
@@ -1798,7 +1800,9 @@ VenusaurEvosMoves:
 	db 7, LEECH_SEED
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
+	db 26, RAZOR_LEAF
+	db 33, PETAL_DANCE
+	db 38, TAKE_DOWN
 	db 43, GROWTH
 	db 55, SLEEP_POWDER
 	db 65, SOLARBEAM
@@ -2016,6 +2020,7 @@ CharmanderEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 15, LEER
+	db 20, SMOKESCREEN
 	db 22, RAGE
 	db 30, SLASH
 	db 38, FLAMETHROWER
@@ -2068,7 +2073,8 @@ CharizardEvosMoves:
 	db 9, EMBER
 	db 15, LEER
 	db 24, RAGE
-	db 36, SLASH
+	db 34, SLASH
+	db 37, WING_ATTACK
 	db 46, FLAMETHROWER
 	db 55, FIRE_SPIN
 	db 0
