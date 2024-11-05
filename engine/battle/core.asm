@@ -5460,7 +5460,7 @@ AdjustDamageForMoveType:
 	ld b, a
 	ld a, [hl] ; a = damage multiplier
 	ldh [hMultiplier], a
-	+	and a  ; cp NO_EFFECT
+	and a  ; cp NO_EFFECT
 	jr z, .gotMultiplier
 	cp NOT_VERY_EFFECTIVE
 	jr nz, .nothalf
