@@ -4,12 +4,12 @@ ViridianForestWildMons:
 	db  4, METAPOD
 	db  4, CATERPIE
 	db  5, CATERPIE
-	db  4, PIDGEY
+	db  4, WEEDLE
 	db  6, PIDGEY
-	db  6, CATERPIE
+	db  6, KAKUNA
 	db  6, METAPOD
-	db  8, PIDGEY
-	db  9, PIDGEOTTO
+	db 11, BEEDRILL
+	db 10, PIDGEOTTO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

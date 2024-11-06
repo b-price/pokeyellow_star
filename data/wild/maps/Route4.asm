@@ -8,8 +8,8 @@ Route4WildMons:
 	db 10, RATTATA
 	db 10, SANDSHREW
 	db 12, RATTATA
-	db 11, SPEAROW
-	db 12, SPEAROW
+	db 11, EKANS
+	db 12, EKANS
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
