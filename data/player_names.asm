@@ -9,5 +9,5 @@ DefaultNamesRival:
 	db   "NEW NAME"
 	next "BLUE"
 	next "GARY"
-	next "SHIGERU"
+	next "GREEN"
 	db   "@"

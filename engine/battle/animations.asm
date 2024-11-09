@@ -1927,7 +1927,7 @@ _AnimationSlideMonOff:
 .EnemyNextTile
 	ld a, [hl]
 	sub 7
-	cp $31
+	cp $30
 	ret c
 	ld a, " "
 	ret
