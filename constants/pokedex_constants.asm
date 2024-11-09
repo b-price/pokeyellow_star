@@ -4,7 +4,7 @@
 ; - MonPartyData (see data/pokemon/menu_icons.asm)
 ; - MonsterPalettes (see data/pokemon/palettes.asm)
 	const_def 1
-	const DEX_BULBASAUR  ; 1
+	const DEX_BULBASAUR  ; 1 
 	const DEX_IVYSAUR    ; 2
 	const DEX_VENUSAUR   ; 3
 	const DEX_CHARMANDER ; 4

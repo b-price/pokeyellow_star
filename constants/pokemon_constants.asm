@@ -5,6 +5,7 @@
 ; - CryData (see data/pokemon/cries.asm)
 ; - PokedexOrder (see data/pokemon/dex_order.asm)
 ; - PokedexEntryPointers (see data/pokemon/dex_entries.asm)
+; - Pics (see gfx/pics.asm)
 	const_def
 	const NO_MON             ; $00
     const BULBASAUR          ; $01

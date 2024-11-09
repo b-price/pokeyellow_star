@@ -6,194 +6,194 @@ ENDM
 CryData::
 	table_width 3, CryData
 	; base cry, pitch, length
-mon_cry SFX_CRY_0F, $80, $01 ; Bulbasaur
-mon_cry SFX_CRY_0F, $20, $80 ; Ivysaur
-mon_cry SFX_CRY_0F, $00, $C0 ; Venusaur
-mon_cry SFX_CRY_04, $60, $40 ; Charmander
-mon_cry SFX_CRY_04, $20, $40 ; Charmeleon
-mon_cry SFX_CRY_04, $00, $80 ; Charizard
-mon_cry SFX_CRY_1D, $60, $40 ; Squirtle
-mon_cry SFX_CRY_1D, $20, $40 ; Wartortle
-mon_cry SFX_CRY_13, $00, $80 ; Blastoise
-mon_cry SFX_CRY_15, $EE, $01 ; Caterpie
-mon_cry SFX_CRY_15, $AA, $40 ; Metapod
-mon_cry SFX_CRY_15, $DD, $80 ; Butterfree
-mon_cry SFX_CRY_15, $FF, $01 ; Weedle
-mon_cry SFX_CRY_13, $FF, $01 ; Kakuna
-mon_cry SFX_CRY_13, $60, $80 ; Beedrill
-mon_cry SFX_CRY_12, $20, $40 ; Pidgey
-mon_cry SFX_CRY_12, $AA, $40 ; Pidgeotto
-mon_cry SFX_CRY_12, $CC, $80 ; Pidgeot
-mon_cry SFX_CRY_1B, $EE, $01 ; Rattata
-mon_cry SFX_CRY_1B, $44, $20 ; Raticate
-mon_cry SFX_CRY_08, $DD, $01 ; Spearow
-mon_cry SFX_CRY_08, $AA, $40 ; Fearow
-mon_cry SFX_CRY_09, $99, $FF ; Ekans
-mon_cry SFX_CRY_09, $CC, $40 ; Arbok
-mon_cry SFX_CRY_19, $88, $40 ; Pikachu
-mon_cry SFX_CRY_19, $00, $80 ; Raichu
-mon_cry SFX_CRY_17, $EE, $01 ; Sandshrew
-mon_cry SFX_CRY_17, $44, $20 ; Sandslash
-mon_cry SFX_CRY_00, $00, $80 ; Nidoran♀
-mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina
-mon_cry SFX_CRY_0A, $00, $80 ; Nidoqueen
-mon_cry SFX_CRY_00, $00, $80 ; Nidoran♂
-mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
-mon_cry SFX_CRY_09, $00, $80 ; Nidoking
-mon_cry SFX_CRY_14, $00, $80 ; Clefairy
-mon_cry SFX_CRY_14, $22, $FF ; Clefable
-mon_cry SFX_CRY_18, $22, $FF ; Vulpix
-mon_cry SFX_CRY_18, $33, $CC ; Ninetales
-mon_cry SFX_CRY_15, $33, $CC ; Jigglypuff
-mon_cry SFX_CRY_15, $44, $40 ; Wigglytuff
-mon_cry SFX_CRY_08, $AA, $40 ; Zubat
-mon_cry SFX_CRY_08, $DD, $80 ; Golbat
-mon_cry SFX_CRY_0B, $BB, $40 ; Oddish
-mon_cry SFX_CRY_08, $DD, $01 ; Gloom
-mon_cry SFX_CRY_08, $44, $40 ; Vileplume
-mon_cry SFX_CRY_1E, $20, $E0 ; Paras
-mon_cry SFX_CRY_1E, $42, $FF ; Parasect
-mon_cry SFX_CRY_1A, $44, $40 ; Venonat
-mon_cry SFX_CRY_1A, $29, $80 ; Venomoth
-mon_cry SFX_CRY_10, $FF, $CC ; Diglett
-mon_cry SFX_CRY_10, $AA, $40 ; Dugtrio
-mon_cry SFX_CRY_17, $33, $CC ; Meowth
-mon_cry SFX_CRY_17, $55, $01 ; Persian
-mon_cry SFX_CRY_0A, $33, $CC ; Psyduck
-mon_cry SFX_CRY_0A, $44, $40 ; Golduck
-mon_cry SFX_CRY_0C, $44, $40 ; Mankey
-mon_cry SFX_CRY_0C, $66, $CC ; Primeape
-mon_cry SFX_CRY_16, $44, $40 ; Growlithe
-mon_cry SFX_CRY_16, $88, $80 ; Arcanine
-mon_cry SFX_CRY_06, $FF, $CC ; Poliwag
-mon_cry SFX_CRY_06, $44, $40 ; Poliwhirl
-mon_cry SFX_CRY_06, $88, $80 ; Poliwrath
-mon_cry SFX_CRY_0D, $44, $40 ; Abra
-mon_cry SFX_CRY_0D, $88, $80 ; Kadabra
-mon_cry SFX_CRY_0D, $CC, $C0 ; Alakazam
-mon_cry SFX_CRY_1A, $FF, $CC ; Machop
-mon_cry SFX_CRY_1A, $88, $80 ; Machoke
-mon_cry SFX_CRY_1A, $CC, $C0 ; Machamp
-mon_cry SFX_CRY_15, $FF, $CC ; Bellsprout
-mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
-mon_cry SFX_CRY_25, $66, $CC ; Victreebel
-mon_cry SFX_CRY_23, $22, $FF ; Tentacool
-mon_cry SFX_CRY_23, $44, $40 ; Tentacruel
-mon_cry SFX_CRY_05, $00, $80 ; Geodude
-mon_cry SFX_CRY_05, $88, $80 ; Graveler
-mon_cry SFX_CRY_05, $CC, $C0 ; Golem
-mon_cry SFX_CRY_1C, $44, $20 ; Ponyta
-mon_cry SFX_CRY_1C, $88, $40 ; Rapidash
-mon_cry SFX_CRY_02, $44, $40 ; Slowpoke
-mon_cry SFX_CRY_02, $88, $80 ; Slowbro
-mon_cry SFX_CRY_22, $44, $40 ; Magnemite
-mon_cry SFX_CRY_22, $CC, $C0 ; Magneton
-mon_cry SFX_CRY_08, $FF, $01 ; Farfetch’d
-mon_cry SFX_CRY_0F, $66, $CC ; Doduo
-mon_cry SFX_CRY_0F, $88, $40 ; Dodrio
-mon_cry SFX_CRY_03, $44, $40 ; Seel
-mon_cry SFX_CRY_03, $88, $80 ; Dewgong
-mon_cry SFX_CRY_07, $88, $80 ; Grimer
-mon_cry SFX_CRY_07, $CC, $C0 ; Muk
-mon_cry SFX_CRY_15, $FF, $CC ; Shellder
-mon_cry SFX_CRY_24, $44, $20 ; Cloyster
-mon_cry SFX_CRY_0C, $88, $40 ; Gastly
-mon_cry SFX_CRY_0C, $CC, $80 ; Haunter
-mon_cry SFX_CRY_0C, $FF, $C0 ; Gengar
-mon_cry SFX_CRY_1B, $44, $40 ; Onix
-mon_cry SFX_CRY_21, $FF, $CC ; Drowzee
-mon_cry SFX_CRY_21, $88, $40 ; Hypno
-mon_cry SFX_CRY_12, $FF, $CC ; Krabby
-mon_cry SFX_CRY_12, $88, $40 ; Kingler
-mon_cry SFX_CRY_06, $44, $40 ; Voltorb
-mon_cry SFX_CRY_06, $88, $80 ; Electrode
-mon_cry SFX_CRY_1F, $44, $40 ; Exeggcute
-mon_cry SFX_CRY_1F, $88, $80 ; Exeggutor
-mon_cry SFX_CRY_1D, $88, $80 ; Cubone
-mon_cry SFX_CRY_1D, $CC, $C0 ; Marowak
-mon_cry SFX_CRY_1B, $FF, $CC ; Hitmonlee
-mon_cry SFX_CRY_1B, $88, $80 ; Hitmonchan
-mon_cry SFX_CRY_08, $44, $40 ; Lickitung
-mon_cry SFX_CRY_14, $CC, $C0 ; Koffing
-mon_cry SFX_CRY_14, $FF, $C0 ; Weezing
-mon_cry SFX_CRY_04, $44, $40 ; Rhyhorn
-mon_cry SFX_CRY_04, $CC, $C0 ; Rhydon
-mon_cry SFX_CRY_15, $88, $40 ; Chansey
-mon_cry SFX_CRY_07, $44, $20 ; Tangela
-mon_cry SFX_CRY_1E, $44, $40 ; Kangaskhan
-mon_cry SFX_CRY_0E, $88, $80 ; Horsea
-mon_cry SFX_CRY_0E, $CC, $C0 ; Seadra
-mon_cry SFX_CRY_07, $88, $80 ; Goldeen
-mon_cry SFX_CRY_07, $CC, $C0 ; Seaking
-mon_cry SFX_CRY_0F, $88, $40 ; Staryu
-mon_cry SFX_CRY_0F, $CC, $C0 ; Starmie
-mon_cry SFX_CRY_10, $44, $20 ; Mr. Mime
-mon_cry SFX_CRY_0A, $88, $40 ; Scyther
-mon_cry SFX_CRY_09, $CC, $C0 ; Jynx
-mon_cry SFX_CRY_08, $88, $40 ; Electabuzz
-mon_cry SFX_CRY_08, $CC, $C0 ; Magmar
-mon_cry SFX_CRY_1E, $44, $40 ; Pinsir
-mon_cry SFX_CRY_17, $CC, $C0 ; Tauros
-mon_cry SFX_CRY_05, $FF, $CC ; Magikarp
-mon_cry SFX_CRY_17, $88, $80 ; Gyarados
-mon_cry SFX_CRY_0F, $44, $40 ; Lapras
-mon_cry SFX_CRY_0F, $CC, $C0 ; Ditto
-mon_cry SFX_CRY_16, $FF, $CC ; Eevee
-mon_cry SFX_CRY_16, $88, $80 ; Vaporeon
-mon_cry SFX_CRY_16, $CC, $C0 ; Jolteon
-mon_cry SFX_CRY_16, $FF, $C0 ; Flareon
-mon_cry SFX_CRY_07, $44, $40 ; Porygon
-mon_cry SFX_CRY_13, $88, $40 ; Omanyte
-mon_cry SFX_CRY_13, $CC, $C0 ; Omastar
-mon_cry SFX_CRY_14, $44, $40 ; Kabuto
-mon_cry SFX_CRY_14, $88, $80 ; Kabutops
-mon_cry SFX_CRY_12, $44, $40 ; Aerodactyl
-mon_cry SFX_CRY_1F, $88, $40 ; Snorlax
-mon_cry SFX_CRY_1F, $CC, $C0 ; Articuno
-mon_cry SFX_CRY_1F, $FF, $C0 ; Zapdos
-mon_cry SFX_CRY_1F, $44, $20 ; Moltres
-mon_cry SFX_CRY_1F, $88, $80 ; Dratini
-mon_cry SFX_CRY_1F, $CC, $C0 ; Dragonair
-mon_cry SFX_CRY_1F, $FF, $C0 ; Dragonite
-mon_cry SFX_CRY_0F, $44, $20 ; Mewtwo
-mon_cry SFX_CRY_0F, $88, $80 ; Mew
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_0F, $80, $01 ; Bulbasaur
+	mon_cry SFX_CRY_0F, $20, $80 ; Ivysaur
+	mon_cry SFX_CRY_0F, $00, $C0 ; Venusaur
+	mon_cry SFX_CRY_04, $60, $40 ; Charmander
+	mon_cry SFX_CRY_04, $20, $40 ; Charmeleon
+	mon_cry SFX_CRY_04, $00, $80 ; Charizard
+	mon_cry SFX_CRY_1D, $60, $40 ; Squirtle
+	mon_cry SFX_CRY_1D, $20, $40 ; Wartortle
+	mon_cry SFX_CRY_13, $00, $80 ; Blastoise
+	mon_cry SFX_CRY_15, $EE, $01 ; Caterpie
+	mon_cry SFX_CRY_15, $AA, $40 ; Metapod
+	mon_cry SFX_CRY_15, $DD, $80 ; Butterfree
+	mon_cry SFX_CRY_15, $FF, $01 ; Weedle
+	mon_cry SFX_CRY_13, $FF, $01 ; Kakuna
+	mon_cry SFX_CRY_13, $60, $80 ; Beedrill
+	mon_cry SFX_CRY_12, $20, $40 ; Pidgey
+	mon_cry SFX_CRY_12, $AA, $40 ; Pidgeotto
+	mon_cry SFX_CRY_12, $CC, $80 ; Pidgeot
+	mon_cry SFX_CRY_1B, $EE, $01 ; Rattata
+	mon_cry SFX_CRY_1B, $44, $20 ; Raticate
+	mon_cry SFX_CRY_08, $DD, $01 ; Spearow
+	mon_cry SFX_CRY_08, $AA, $40 ; Fearow
+	mon_cry SFX_CRY_09, $99, $FF ; Ekans
+	mon_cry SFX_CRY_09, $CC, $40 ; Arbok
+	mon_cry SFX_CRY_19, $88, $40 ; Pikachu
+	mon_cry SFX_CRY_19, $00, $80 ; Raichu
+	mon_cry SFX_CRY_17, $EE, $01 ; Sandshrew
+	mon_cry SFX_CRY_17, $44, $20 ; Sandslash
+	mon_cry SFX_CRY_00, $00, $80 ; Nidoran♀
+	mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina
+	mon_cry SFX_CRY_0A, $00, $80 ; Nidoqueen
+	mon_cry SFX_CRY_00, $00, $80 ; Nidoran♂
+	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
+	mon_cry SFX_CRY_09, $00, $80 ; Nidoking
+	mon_cry SFX_CRY_14, $00, $80 ; Clefairy
+	mon_cry SFX_CRY_14, $22, $FF ; Clefable
+	mon_cry SFX_CRY_18, $22, $FF ; Vulpix
+	mon_cry SFX_CRY_18, $33, $CC ; Ninetales
+	mon_cry SFX_CRY_15, $33, $CC ; Jigglypuff
+	mon_cry SFX_CRY_15, $44, $40 ; Wigglytuff
+	mon_cry SFX_CRY_08, $AA, $40 ; Zubat
+	mon_cry SFX_CRY_08, $DD, $80 ; Golbat
+	mon_cry SFX_CRY_0B, $BB, $40 ; Oddish
+	mon_cry SFX_CRY_08, $DD, $01 ; Gloom
+	mon_cry SFX_CRY_08, $44, $40 ; Vileplume
+	mon_cry SFX_CRY_1E, $20, $E0 ; Paras
+	mon_cry SFX_CRY_1E, $42, $FF ; Parasect
+	mon_cry SFX_CRY_1A, $44, $40 ; Venonat
+	mon_cry SFX_CRY_1A, $29, $80 ; Venomoth
+	mon_cry SFX_CRY_10, $FF, $CC ; Diglett
+	mon_cry SFX_CRY_10, $AA, $40 ; Dugtrio
+	mon_cry SFX_CRY_17, $33, $CC ; Meowth
+	mon_cry SFX_CRY_17, $55, $01 ; Persian
+	mon_cry SFX_CRY_0A, $33, $CC ; Psyduck
+	mon_cry SFX_CRY_0A, $44, $40 ; Golduck
+	mon_cry SFX_CRY_0C, $44, $40 ; Mankey
+	mon_cry SFX_CRY_0C, $66, $CC ; Primeape
+	mon_cry SFX_CRY_16, $44, $40 ; Growlithe
+	mon_cry SFX_CRY_16, $88, $80 ; Arcanine
+	mon_cry SFX_CRY_06, $FF, $CC ; Poliwag
+	mon_cry SFX_CRY_06, $44, $40 ; Poliwhirl
+	mon_cry SFX_CRY_06, $88, $80 ; Poliwrath
+	mon_cry SFX_CRY_0D, $44, $40 ; Abra
+	mon_cry SFX_CRY_0D, $88, $80 ; Kadabra
+	mon_cry SFX_CRY_0D, $CC, $C0 ; Alakazam
+	mon_cry SFX_CRY_1A, $FF, $CC ; Machop
+	mon_cry SFX_CRY_1A, $88, $80 ; Machoke
+	mon_cry SFX_CRY_1A, $CC, $C0 ; Machamp
+	mon_cry SFX_CRY_15, $FF, $CC ; Bellsprout
+	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
+	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
+	mon_cry SFX_CRY_23, $22, $FF ; Tentacool
+	mon_cry SFX_CRY_23, $44, $40 ; Tentacruel
+	mon_cry SFX_CRY_05, $00, $80 ; Geodude
+	mon_cry SFX_CRY_05, $88, $80 ; Graveler
+	mon_cry SFX_CRY_05, $CC, $C0 ; Golem
+	mon_cry SFX_CRY_1C, $44, $20 ; Ponyta
+	mon_cry SFX_CRY_1C, $88, $40 ; Rapidash
+	mon_cry SFX_CRY_02, $44, $40 ; Slowpoke
+	mon_cry SFX_CRY_02, $88, $80 ; Slowbro
+	mon_cry SFX_CRY_22, $44, $40 ; Magnemite
+	mon_cry SFX_CRY_22, $CC, $C0 ; Magneton
+	mon_cry SFX_CRY_08, $FF, $01 ; Farfetch’d
+	mon_cry SFX_CRY_0F, $66, $CC ; Doduo
+	mon_cry SFX_CRY_0F, $88, $40 ; Dodrio
+	mon_cry SFX_CRY_03, $44, $40 ; Seel
+	mon_cry SFX_CRY_03, $88, $80 ; Dewgong
+	mon_cry SFX_CRY_07, $88, $80 ; Grimer
+	mon_cry SFX_CRY_07, $CC, $C0 ; Muk
+	mon_cry SFX_CRY_15, $FF, $CC ; Shellder
+	mon_cry SFX_CRY_24, $44, $20 ; Cloyster
+	mon_cry SFX_CRY_0C, $88, $40 ; Gastly
+	mon_cry SFX_CRY_0C, $CC, $80 ; Haunter
+	mon_cry SFX_CRY_0C, $FF, $C0 ; Gengar
+	mon_cry SFX_CRY_1B, $44, $40 ; Onix
+	mon_cry SFX_CRY_21, $FF, $CC ; Drowzee
+	mon_cry SFX_CRY_21, $88, $40 ; Hypno
+	mon_cry SFX_CRY_12, $FF, $CC ; Krabby
+	mon_cry SFX_CRY_12, $88, $40 ; Kingler
+	mon_cry SFX_CRY_06, $44, $40 ; Voltorb
+	mon_cry SFX_CRY_06, $88, $80 ; Electrode
+	mon_cry SFX_CRY_1F, $44, $40 ; Exeggcute
+	mon_cry SFX_CRY_1F, $88, $80 ; Exeggutor
+	mon_cry SFX_CRY_1D, $88, $80 ; Cubone
+	mon_cry SFX_CRY_1D, $CC, $C0 ; Marowak
+	mon_cry SFX_CRY_1B, $FF, $CC ; Hitmonlee
+	mon_cry SFX_CRY_1B, $88, $80 ; Hitmonchan
+	mon_cry SFX_CRY_08, $44, $40 ; Lickitung
+	mon_cry SFX_CRY_14, $CC, $C0 ; Koffing
+	mon_cry SFX_CRY_14, $FF, $C0 ; Weezing
+	mon_cry SFX_CRY_04, $44, $40 ; Rhyhorn
+	mon_cry SFX_CRY_04, $CC, $C0 ; Rhydon
+	mon_cry SFX_CRY_15, $88, $40 ; Chansey
+	mon_cry SFX_CRY_07, $44, $20 ; Tangela
+	mon_cry SFX_CRY_1E, $44, $40 ; Kangaskhan
+	mon_cry SFX_CRY_0E, $88, $80 ; Horsea
+	mon_cry SFX_CRY_0E, $CC, $C0 ; Seadra
+	mon_cry SFX_CRY_07, $88, $80 ; Goldeen
+	mon_cry SFX_CRY_07, $CC, $C0 ; Seaking
+	mon_cry SFX_CRY_0F, $88, $40 ; Staryu
+	mon_cry SFX_CRY_0F, $CC, $C0 ; Starmie
+	mon_cry SFX_CRY_10, $44, $20 ; Mr. Mime
+	mon_cry SFX_CRY_0A, $88, $40 ; Scyther
+	mon_cry SFX_CRY_09, $CC, $C0 ; Jynx
+	mon_cry SFX_CRY_08, $88, $40 ; Electabuzz
+	mon_cry SFX_CRY_08, $CC, $C0 ; Magmar
+	mon_cry SFX_CRY_1E, $44, $40 ; Pinsir
+	mon_cry SFX_CRY_17, $CC, $C0 ; Tauros
+	mon_cry SFX_CRY_05, $FF, $CC ; Magikarp
+	mon_cry SFX_CRY_17, $88, $80 ; Gyarados
+	mon_cry SFX_CRY_0F, $44, $40 ; Lapras
+	mon_cry SFX_CRY_0F, $CC, $C0 ; Ditto
+	mon_cry SFX_CRY_16, $FF, $CC ; Eevee
+	mon_cry SFX_CRY_16, $88, $80 ; Vaporeon
+	mon_cry SFX_CRY_16, $CC, $C0 ; Jolteon
+	mon_cry SFX_CRY_16, $FF, $C0 ; Flareon
+	mon_cry SFX_CRY_07, $44, $40 ; Porygon
+	mon_cry SFX_CRY_13, $88, $40 ; Omanyte
+	mon_cry SFX_CRY_13, $CC, $C0 ; Omastar
+	mon_cry SFX_CRY_14, $44, $40 ; Kabuto
+	mon_cry SFX_CRY_14, $88, $80 ; Kabutops
+	mon_cry SFX_CRY_12, $44, $40 ; Aerodactyl
+	mon_cry SFX_CRY_1F, $88, $40 ; Snorlax
+	mon_cry SFX_CRY_1F, $CC, $C0 ; Articuno
+	mon_cry SFX_CRY_1F, $FF, $C0 ; Zapdos
+	mon_cry SFX_CRY_1F, $44, $20 ; Moltres
+	mon_cry SFX_CRY_1F, $88, $80 ; Dratini
+	mon_cry SFX_CRY_1F, $CC, $C0 ; Dragonair
+	mon_cry SFX_CRY_1F, $FF, $C0 ; Dragonite
+	mon_cry SFX_CRY_0F, $44, $20 ; Mewtwo
+	mon_cry SFX_CRY_0F, $88, $80 ; Mew
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	assert_table_length NUM_POKEMON_INDEXES
