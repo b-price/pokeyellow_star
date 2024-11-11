@@ -10,15 +10,15 @@
 	INCBIN "gfx/pokemon/front/gyarados.pic", 0, 1 ; sprite dimensions
 	dw GyaradosPicFront, GyaradosPicBack
 
-	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, THRASH, BITE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+	tmhm WATERFALL, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,          \
-	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   SURF,         STRENGTH
+	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,  EARTHQUAKE, FISSURE,    MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,   FLAMETHROWER,      FIRE_BLAST,   SKULL_BASH,  SKY_ATTACK, REST,         \
+	     ROCK_SLIDE, SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db 0 ; padding

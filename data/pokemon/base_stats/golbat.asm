@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/golbat.pic", 0, 1 ; sprite dimensions
 	dw GolbatPicFront, GolbatPicBack
 
-	db LEECH_LIFE, SCREECH, BITE, NO_MOVE ; level 1 learnset
+	db POISON_STING, SCREECH, BITE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm      TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,          MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        REST,         SUBSTITUTE
+	     BIDE,   LEECH_LIFE,      SWIFT,    SKY_ATTACK,    REST,  THUNDER_WAVE, SLUDGE,       SUBSTITUTE, FLASH
 	; end
 
 	db 0 ; padding

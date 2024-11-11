@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	            MEGA_DRAIN,   SOLARBEAM,    DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   CUT
+	tmhm GROWTH, SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     LIGHT_SCREEN,       MEGA_DRAIN,   SOLARBEAM,    DIG,          MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,     LEECH_LIFE,    SKULL_BASH,   REST,         \
+	     SLUDGE, SUBSTITUTE,   CUT, FLASH
 	; end
 
 	db 0 ; padding

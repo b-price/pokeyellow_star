@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/dodrio.pic", 0, 1 ; sprite dimensions
 	dw DodrioPicFront, DodrioPicBack
 
-	db PECK, GROWL, FURY_ATTACK, NO_MOVE ; level 1 learnset
+	db PECK, GROWL, FURY_ATTACK, TRI_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SKULL_BASH,   SKY_ATTACK,   REST,         TRI_ATTACK,   \
+	tmhm    SWORDS_DANCE, MEGA_KICK, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   LIGHT_SCREEN,       MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,     SWIFT,    SKULL_BASH,   SKY_ATTACK,   REST,         TRI_ATTACK,   \
 	     SUBSTITUTE,   FLY
 	; end
 

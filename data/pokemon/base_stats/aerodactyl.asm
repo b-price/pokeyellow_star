@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/aerodactyl.pic", 0, 1 ; sprite dimensions
 	dw AerodactylPicFront, AerodactylPicBack
 
-	db WING_ATTACK, AGILITY, NO_MOVE, NO_MOVE ; level 1 learnset
+	db WING_ATTACK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm      TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,          DRAGON_RAGE,  MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY
+	     HYPER_BEAM,          DRAGON_RAGE,  EARTHQUAKE, FISSURE, MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,    FLAMETHROWER,     FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
+	     REST,     ROCK_SLIDE,    SUBSTITUTE,   FLY
 	; end
 
 	db 0 ; padding

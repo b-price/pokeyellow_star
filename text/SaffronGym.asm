@@ -57,16 +57,17 @@ _SaffronGymSabrinaMarshBadgeInfoText::
 
 _SaffronGymSabrinaReceivedTM46Text::
 	text "<PLAYER> received"
-	line "TM46!@"
+	line "TM20!@"
 	text_end
 
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "TM20 is LIGHT"
+	line "SCREEN! It"
+	cont "reduces special"
+	cont "damage to your"
+	cont "whole team!"
 	done
 
 _SaffronGymSabrinaTM46NoRoomText::

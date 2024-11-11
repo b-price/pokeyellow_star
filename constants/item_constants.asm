@@ -192,7 +192,7 @@ DEF TM01 EQU const_value
 	add_tm REFLECT      ; $E9
 	add_tm BIDE         ; $EA
 	add_tm METRONOME    ; $EB
-	add_tm SELFDESTRUCT ; $EC
+	add_tm FLAMETHROWER ; $EC - was selfdestruct
 	add_tm LEECH_LIFE   ; $ED - was egg bomb
 	add_tm FIRE_BLAST   ; $EE
 	add_tm SWIFT        ; $EF

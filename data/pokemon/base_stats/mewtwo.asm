@@ -10,17 +10,17 @@
 	INCBIN "gfx/pokemon/front/mewtwo.pic", 0, 1 ; sprite dimensions
 	dw MewtwoPicFront, MewtwoPicBack
 
-	db CONFUSION, DISABLE, SWIFT, PSYCHIC_M ; level 1 learnset
+	db CONFUSION, DISABLE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS,        \
+	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS,  LIGHT_SCREEN,      \
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SELFDESTRUCT, FIRE_BLAST,   SKULL_BASH,   REST,         THUNDER_WAVE, \
-	          TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
+	     FLAMETHROWER,  FIRE_BLAST,  SWIFT, SKULL_BASH,  DREAM_EATER, REST,         THUNDER_WAVE, \
+	     EXPLOSION,     TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
 	db 0 ; padding
